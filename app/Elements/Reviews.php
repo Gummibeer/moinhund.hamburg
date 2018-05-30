@@ -29,6 +29,8 @@ class Reviews extends Element
             $resolver->setAllowedTypes('rating', 'int');
             $resolver->setAllowedTypes('text', 'string');
             $resolver->setAllowedTypes('author', 'string');
+            $resolver->setDefault('date', null);
+            $resolver->setAllowedTypes('date', ['string', 'null']);
             $resolver->setAllowedValues('rating', [1,2,3,4,5]);
             $resolver->resolve($review);
         }
