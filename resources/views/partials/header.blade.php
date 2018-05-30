@@ -14,7 +14,7 @@
                 </li>
                 <li class="list-inline-item d-block d-sm-inline-block">
                     <i class="fas fa-phone"></i>
-                    +49 40 53889478
+                    <a href="tel:+494053889478" style="color: #e5e5e5; text-decoration: none;">+49 40 53 88 94 78</a>
                 </li>
                 <li class="list-inline-item d-block d-sm-inline-block">
                     @if($opening_hours[$now->dayOfWeek])

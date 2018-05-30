@@ -12,7 +12,7 @@
                     <ul class="list-unstyled m-0">
                         <li>
                             <i class="fas fa-phone mr-2" style="color: #C0C0C0;"></i>
-                            +49 40 53 88 94 78
+                            <a href="tel:+494053889478" style="color: #e5e5e5; text-decoration: none;">+49 40 53 88 94 78</a>
                         </li>
                         <li>
                             <i class="fas fa-fax mr-2" style="color: #C0C0C0;"></i>
@@ -20,7 +20,7 @@
                         </li>
                         <li>
                             <i class="fas fa-envelope mr-2" style="color: #C0C0C0;"></i>
-                            info@moin-hund.com
+                            <a href="mailto:info@moin-hund.com" style="color: #e5e5e5; text-decoration: none;">info@moin-hund.com</a>
                         </li>
                     </ul>
                 </div>
