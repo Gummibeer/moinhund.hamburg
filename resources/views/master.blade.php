@@ -57,6 +57,7 @@
         });
     });
 </script>
+{!! $schema->toScript() !!}
 
 </body>
 </html>
