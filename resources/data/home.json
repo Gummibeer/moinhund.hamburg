@@ -8,7 +8,7 @@
   }, {
     "type": "icons_text",
     "data": {
-      "headline": "Kundenmeinungen",
+      "headline": "Unser Sortiment",
       "icons": [
         {
           "icon": "https://cdn0.iconfinder.com/data/icons/pet-shop-related-flat/64/pet_shop-29-512.png",
@@ -84,7 +84,7 @@
   }, {
     "type": "reviews",
     "data": {
-      "headline": "Kundenmeinungen",
+      "headline": "Kunden-Meinungen",
       "reviews": [
         {
           "rating": 5,
