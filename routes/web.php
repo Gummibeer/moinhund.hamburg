@@ -22,7 +22,7 @@ function basic_view_data(): array
 
 function build_schema()
 {
-    return Schema::petStore()
+    return Schema::store()
         ->name('Moin Hund')
         ->legalName('T.J.H. Hamburger Hunde GmbH')
         ->image('https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/17389076_1109289709216268_4022540907275183257_o.jpg?_nc_cat=0&_nc_eui2=AeF4lsqTdMVgufEMMxMQzLtWkAXeTAKbgchib5dmqgTnQ6ymz7DdtSf5TIXm12GqOM3s__kgMKdYRDLE2KwBK9_sn1l2Rb50eg4i_Nf1_dnx9g&oh=fc7ff1bde405f38cb4912ccf3d66b1a9&oe=5B796A26')
