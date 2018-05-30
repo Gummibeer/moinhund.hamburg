@@ -10,8 +10,18 @@
                         <li>22335 Hamburg</li>
                     </ul>
                     <ul class="list-unstyled m-0">
-                        <li>+49 40 53889478</li>
-                        <li>info@moin-hund.com</li>
+                        <li>
+                            <i class="fas fa-phone mr-2" style="color: #C0C0C0;"></i>
+                            +49 40 53 88 94 78
+                        </li>
+                        <li>
+                            <i class="fas fa-fax mr-2" style="color: #C0C0C0;"></i>
+                            +49 40 53 88 94 77
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope mr-2" style="color: #C0C0C0;"></i>
+                            info@moin-hund.com
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-6">
@@ -19,11 +29,19 @@
                     <ul class="list-unstyled m-0">
                         <li>
                             <i class="fal fa-angle-right mr-2" style="color: #C0C0C0;"></i>
-                            Futter & Leckerchen
+                            Alserstars
                         </li>
                         <li>
                             <i class="fal fa-angle-right mr-2" style="color: #C0C0C0;"></i>
                             Halsbänder & Leinen
+                        </li>
+                        <li>
+                            <i class="fal fa-angle-right mr-2" style="color: #C0C0C0;"></i>
+                            Futter & Leckerchen
+                        </li>
+                        <li>
+                            <i class="fal fa-angle-right mr-2" style="color: #C0C0C0;"></i>
+                            Kauartikel
                         </li>
                         <li>
                             <i class="fal fa-angle-right mr-2" style="color: #C0C0C0;"></i>
@@ -52,6 +70,11 @@
                         <li class="list-inline-item">
                             <a href="https://instagram.com/moin_hund" target="_blank" class="btn btn-light rounded-circle">
                                 <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://google.com/maps?cid=9367165860801608956" target="_blank" class="btn btn-light rounded-circle">
+                                <i class="fab fa-google"></i>
                             </a>
                         </li>
                     </ul>
