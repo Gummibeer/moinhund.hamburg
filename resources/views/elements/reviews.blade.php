@@ -2,7 +2,7 @@
     <div class="container">
         <h2 class="mt-0 mb-4">{{ $headline }}</h2>
         <div class="owl-carousel owl-theme">
-            @foreach($reviews as $review)
+            @foreach(collect($reviews)->shuffle() as $review)
             <div class="item">
                 <blockquote class="w-50 mx-auto">
                     <p class="mb-2">{!! $review['text'] !!}</p>
