@@ -2,7 +2,7 @@
     <section class="info">
         <div class="container clearfix">
             <div class="row">
-                <div class="col-md-4 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 mt-md-0">
                     <h4>Kontakt</h4>
                     <ul class="list-unstyled">
                         <li><strong>Moin Hund</strong></li>
@@ -24,7 +24,22 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 mt-md-0">
+                    <h4>Öffnungszeiten</h4>
+                    <ul class="list-unstyled">
+                        @foreach($weekdays as $weekday => $name)
+                            <li>
+                                <strong style="display: inline-block; width: 2rem;">{{ $name }}</strong>
+                                @if($opening_hours[$weekday])
+                                    {{ $opening_hours[$weekday]['start'] }} - {{ $opening_hours[$weekday]['end'] }}
+                                @else
+                                    geschlossen
+                                @endif
+                            </li>
+                        @endforeach
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 mt-md-0">
                     <h4>Unser Sortiment</h4>
                     <ul class="list-unstyled m-0">
                         <li>
@@ -56,7 +71,7 @@
                         Oder besuche unseren <a href="https://moin-hund.de">Online-Shop</a>.
                     </p>
                 </div>
-                <div class="col-md-4 mt-4 mt-md-0">
+                <div class="col-lg-3 col-md-12 col-sm-6 col-12 mt-4 mt-lg-0">
                     <h4>Soziale Netzwerke</h4>
                     <p>
                         Du möchtest immer auf dem Laufenden bleiben und nichts verpassen? Dann folge uns doch einfach!
