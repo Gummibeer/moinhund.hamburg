@@ -1,0 +1,105 @@
+[
+  {
+    "type": "welcome",
+    "data": {
+      "background": "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/18275148_1145406238937948_7616892337119465569_n.jpg?_nc_cat=0&_nc_eui2=AeGZmWzgXceq1Qaf08GTQDt4hbjHE5gDSWCl_zlIQi66DcYxvWp0i72ACLYoZTs_q7Qn7WwlKlxwlJxmi6khh3oX_7kBvlI7kww69iMRetmO6w&oh=ddbc71746f6f6d9b84075f40ea92e241&oe=5BBE65E2",
+      "logo": "https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/17389076_1109289709216268_4022540907275183257_o.jpg?_nc_cat=0&_nc_eui2=AeF4lsqTdMVgufEMMxMQzLtWkAXeTAKbgchib5dmqgTnQ6ymz7DdtSf5TIXm12GqOM3s__kgMKdYRDLE2KwBK9_sn1l2Rb50eg4i_Nf1_dnx9g&oh=fc7ff1bde405f38cb4912ccf3d66b1a9&oe=5B796A26"
+    }
+  }, {
+    "type": "icons_text",
+    "data": {
+      "headline": "Kundenmeinungen",
+      "icons": [
+        {
+          "icon": "https://cdn0.iconfinder.com/data/icons/pet-shop-related-flat/64/pet_shop-29-512.png",
+          "label": "Leinen & Halsbänder"
+        }, {
+          "icon": "https://cdn0.iconfinder.com/data/icons/pet-shop-related-flat/64/pet_shop-32-512.png",
+          "label": "Futter & Leckerchen"
+        }, {
+          "icon": "https://cdn0.iconfinder.com/data/icons/pet-shop-related-flat/64/pet_shop-25-512.png",
+          "label": "Spielzeug"
+        }, {
+          "icon": "https://cdn2.iconfinder.com/data/icons/sofa-and-chair-2-flat/64/sofa-35-512.png",
+          "label": "Betten"
+        }
+      ],
+      "text": "Wir haben noch vieles mehr und falls du nicht finden solltest was du suchst können wir es dir bestimmt bestellen. Wenn du etwas bestimmtes suchst kannst du uns auch gern anrufen oder per Facebook fragen."
+    }
+  }, {
+    "type": "image_text",
+    "data": {
+      "direction": "rtl",
+      "image": "https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/29872201_2098115370418551_5104023072894617645_o.jpg?_nc_cat=0&_nc_eui2=AeGAmlkzWZso6U5BDEWuJwy-hV930YMBeW_xTVPO9n1iYrZ47pmhz3OHFD3pc98jbgbJqwHLHZDIVTGMWouIFKnTlftuUzR359D_dB9lSQHIbA&oh=bdf635dc6a7845aeb91c696f1a43a242&oe=5B7AC094",
+      "icons": "🏅 🎗",
+      "headline": "Alsterstars",
+      "text": "Egal ob WoufPouf, andere Betten Marke oder noch eine Marke - wir haben sie alle im!<br/>Wenn du deinem Hund einen bequemen Liegeplatz bieten möchtest dann sind diese Betten genau das richtige. Wenn du magst auch groß genug damit du dich dazu legen kannst. 😉"
+    }
+  }, {
+    "type": "image_text",
+    "data": {
+      "direction": "ltr",
+      "image": "https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/20863383_1227801747365063_6001474609610466305_o.jpg?_nc_cat=0&_nc_eui2=AeFljv7C9Y24_OrQXBOzvnsKqvdEKEz9bGMvIkAGhddz6MHNubiF3zU6lGPCxK5oBMwVjFVgV2d6CFWMIaC5v6CJrgetHZcGSOOkWaGpDWDHWw&oh=134795fc81bf2e92eb305936dc399206&oe=5B7B20DC",
+      "icons": "🎀 🧣",
+      "headline": "Leinen & Halsbänder",
+      "text": "Egal ob WoufPouf, andere Betten Marke oder noch eine Marke - wir haben sie alle im!<br/>Wenn du deinem Hund einen bequemen Liegeplatz bieten möchtest dann sind diese Betten genau das richtige. Wenn du magst auch groß genug damit du dich dazu legen kannst. 😉"
+    }
+  }, {
+    "type": "image_text",
+    "data": {
+      "direction": "rtl",
+      "image": "https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/25398277_1311677978977439_9172241292872015444_o.jpg?_nc_cat=0&_nc_eui2=AeGFSF7eRb8E9U8Vep2RZsI_eeYObg0g6o0SyfNx5vjuxCJzuaq7-y_JbP4wQTzv5m7qKaEVt3yNJ4wj0fjpOfUtAC5JHKluJePPMtkE30aY1Q&oh=08c7603752aa7a2acd3007dbf5fb67af&oe=5BC4E825",
+      "icons": "🍲 🥩 🥫",
+      "headline": "Futter & Leckerchen",
+      "text": "Egal ob WoufPouf, andere Betten Marke oder noch eine Marke - wir haben sie alle im!<br/>Wenn du deinem Hund einen bequemen Liegeplatz bieten möchtest dann sind diese Betten genau das richtige. Wenn du magst auch groß genug damit du dich dazu legen kannst. 😉"
+    }
+  }, {
+    "type": "image_text",
+    "data": {
+      "direction": "ltr",
+      "image": "https://scontent-frx5-1.xx.fbcdn.net/v/l/t31.0-8/22538796_1269474186531152_1546878941511683876_o.jpg?_nc_cat=0&_nc_eui2=AeF5MiBk_sPFLCIIkvugnPH6sYmJ3AKeKvNQaBYaOXewxRF21ye9sEGqtsqXl8NidoxPonjDhzkyxa4wwkgRgxckLdUblHctQsO46Zt-F8_RXg&oh=e57fc0d8186a6ed4edf0f86093c50877&oe=5B8A3F1A",
+      "icons": "🍖 🍪 🍗",
+      "headline": "Kauartikel",
+      "text": "Egal ob WoufPouf, andere Betten Marke oder noch eine Marke - wir haben sie alle im!<br/>Wenn du deinem Hund einen bequemen Liegeplatz bieten möchtest dann sind diese Betten genau das richtige. Wenn du magst auch groß genug damit du dich dazu legen kannst. 😉"
+    }
+  }, {
+    "type": "image_text",
+    "data": {
+      "direction": "rtl",
+      "image": "https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/22426248_1266019460209958_524489849818689909_o.jpg?_nc_cat=0&_nc_eui2=AeEYUjw5IdOsdWqMG6iNLI1mvrXAjrXWJTwc04BR-q_DSgo9nw__Z3oZyd4ezHSwzr6n6ybFgr9MIz95pNQBnTP8Xdwk4xW7Li5kehgE48YxCw&oh=dfba5b75a4dacc2e08aa3911500b0779&oe=5BBC4C1E",
+      "icons": "🎾 🏸 🎋",
+      "headline": "Spielzeug",
+      "text": "Egal ob WoufPouf, andere Betten Marke oder noch eine Marke - wir haben sie alle im!<br/>Wenn du deinem Hund einen bequemen Liegeplatz bieten möchtest dann sind diese Betten genau das richtige. Wenn du magst auch groß genug damit du dich dazu legen kannst. 😉"
+    }
+  }, {
+    "type": "image_text",
+    "data": {
+      "direction": "ltr",
+      "image": "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/29066814_1376665295812040_134329594718191616_o.jpg?_nc_cat=0&_nc_eui2=AeHkAIaQmB-15DCs3K107sKfbiBkg8GNBkDlxDa34-8uKHNHr5qB06YEIwcn1hrIbxvHLqz4LBf4lk6oVxvcjMLGA7eeXOez10hh8E676F0VCA&oh=7313f7cfe42e93d31ac88caa29178b2e&oe=5B7A3A31",
+      "position": "top",
+      "icons": "🛋 😴",
+      "headline": "Betten",
+      "text": "Egal ob WoufPouf, andere Betten Marke oder noch eine Marke - wir haben sie alle im!<br/>Wenn du deinem Hund einen bequemen Liegeplatz bieten möchtest dann sind diese Betten genau das richtige. Wenn du magst auch groß genug damit du dich dazu legen kannst. 😉"
+    }
+  }, {
+    "type": "reviews",
+    "data": {
+      "headline": "Kundenmeinungen",
+      "reviews": [
+        {
+          "rating": 5,
+          "text": "Klein aber fein! 💙<br/>Tanja gibt sich immer Mühe den Wunsch zu erfüllen und beliest sich zur Not in neue Themen etc.Man bekommt eine wirklich gute Beratung und fühlt sich immer willkommen.",
+          "author": "Tom Witkowski"
+        }, {
+          "rating": 5,
+          "text": "Super toller Laden.<br/>Nur weiterzuempfehlen. Klasse Beratung und viel Geduld mit quirligen, aufgeweckten Hunden ❤️",
+          "author": "Alexandra Schulz"
+        }, {
+          "rating": 5,
+          "text": "Erst haben wir gedacht der kleine Laden wäre bestimmt zu teuer, aber wir haben uns geirrt. Also gingen wir mit Futter, einem neuen Körbchen und der Bestellung für ein Hundehalsband nach Hause. Als das Halsband fertig war bekamen wir eine sms mit dem Bild und das es fertig ist. Besser als vorgestellt für 28 Euro!<br/>Also tolle, ausgewählte Sachen zu fairen Preisen und dazu eine wahnsinnig nette Frau im Laden bei uns um die Ecke. Wir kommen jetzt öfter!<br/>Wenn ich das Gegenteil will, dann geh ich ins Futterhaus 😉️",
+          "author": "Lynn Heidsiek"
+        }
+      ]
+    }
+  }
+]
