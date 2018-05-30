@@ -1,15 +1,6 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It is a breeze. Simply tell Lumen the URIs it should respond to
-| and give it the Closure to call when that URI is requested.
-|
-*/
+use Spatie\SchemaOrg\Schema;
 
 function basic_view_data(): array
 {
@@ -31,7 +22,7 @@ function basic_view_data(): array
 
 function build_schema()
 {
-    return \Spatie\SchemaOrg\Schema::localBusiness()
+    return Schema::petStore()
         ->name('Moin Hund')
         ->legalName('T.J.H. Hamburger Hunde GmbH')
         ->image('https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/17389076_1109289709216268_4022540907275183257_o.jpg?_nc_cat=0&_nc_eui2=AeF4lsqTdMVgufEMMxMQzLtWkAXeTAKbgchib5dmqgTnQ6ymz7DdtSf5TIXm12GqOM3s__kgMKdYRDLE2KwBK9_sn1l2Rb50eg4i_Nf1_dnx9g&oh=fc7ff1bde405f38cb4912ccf3d66b1a9&oe=5B796A26')
@@ -39,11 +30,11 @@ function build_schema()
         ->currenciesAccepted('EUR')
         ->openingHours([
             'Mo-Fr 10:00-18:00',
-            'Sa 10:00-13:00'
+            'Sa 10:00-13:00',
         ])
         ->priceRange('$$')
         ->address(
-            \Spatie\SchemaOrg\Schema::postalAddress()
+            Schema::postalAddress()
                 ->addressCountry('DE')
                 ->addressLocality('Hamburg')
                 ->postalCode('22335')
@@ -53,7 +44,7 @@ function build_schema()
         ->telephone('+494050098992')
         ->faxNumber('+494053889477')
         ->founder(
-            \Spatie\SchemaOrg\Schema::person()
+            Schema::person()
                 ->familyName('Nasilowski')
                 ->givenName('Tanja')
         )
@@ -67,6 +58,13 @@ function build_schema()
             'https://www.instagram.com/moin_hund',
             'https://www.google.com/maps?cid=9367165860801608956',
         ])
+        ->publicAccess(true)
+        ->smokingAllowed(false)
+        ->geo(
+            Schema::geoCoordinates()
+                ->latitude(53.6265)
+                ->longitude(10.0244)
+        )
     ;
 }
 
