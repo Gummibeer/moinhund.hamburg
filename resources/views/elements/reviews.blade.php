@@ -1,4 +1,4 @@
-<section class="content-section" style="background-image: url(https://source.unsplash.com/8wClLnwbNkc);background-size: cover; background-position: center;box-shadow: inset 0 0 0 2000px rgba(229,229,229,0.75);">
+<section class="content-section" style="background-image: url(https://source.unsplash.com/RLw-UC03Gwc);background-size: cover; background-position: center;box-shadow: inset 0 0 0 2000px rgba(229,229,229,0.75);">
     <div class="container">
         <h2 class="mt-0 mb-4">{{ $headline }}</h2>
         <div class="owl-carousel owl-theme">
