@@ -1,4 +1,18 @@
 <footer id="footer">
+    <section class="payment">
+        <div class="container clearfix">
+            <div class="row">
+                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/eccard.png') }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/maestro.png') }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/visa.png') }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/mastercard.png') }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/amex.png') }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/applepay.png') }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/androidpay.png') }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/contactless.png') }}" class="img-fluid" /></div>
+            </div>
+        </div>
+    </section>
     <section class="info">
         <div class="container clearfix">
             <div class="row">

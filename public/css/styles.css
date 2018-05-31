@@ -38,13 +38,22 @@ body {
 #footer .info {
     background: #253238;
     color: #E5E5E5;
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 
 #footer .info h4 {
     margin-top: 0;
     margin-bottom: 1rem;
     color: #C4A981;
+}
+
+#footer .payment {
+    background: #C0C0C0;
+    padding: 1rem 0;
+}
+
+#footer .payment img {
+    max-width: 56px;
 }
 
 #footer .copyright {
