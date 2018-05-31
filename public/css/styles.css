@@ -5,6 +5,16 @@ body {
     font-weight: 400;
 }
 
+a {
+    color: #0887F0;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #033157;
+}
+
 #header .banner {
     background: #0887F0;
     color: #ffffff;
@@ -33,6 +43,14 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.content-section .container > *:first-child {
+    margin-top: 0;
+}
+
+.content-section .container > *:last-child {
+    margin-bottom: 0;
 }
 
 #footer .info {
