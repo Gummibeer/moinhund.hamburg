@@ -7,6 +7,8 @@ use Illuminate\Validation\ValidationException;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Laravel\Lumen\Exceptions\Handler as ExceptionHandler;
+use Symfony\Component\Debug\Exception\FlattenException;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class Handler extends ExceptionHandler
@@ -45,6 +47,19 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $e)
     {
-        return parent::render($request, $e);
+        if(config('app.debug', false)) {
+            return parent::render($request, $e);
+        }
+
+        $fe = FlattenException::create($e);
+        $status = $fe->getStatusCode();
+        $error = array_get(Response::$statusTexts, $fe->getStatusCode(), 'Error');
+
+        $data = basic_view_data();
+        $data['status'] = $status;
+        $data['error'] = $error;
+        $data['title'] = 'Fehler '.$status;
+
+        return response(view('error', $data), $status);
     }
 }
