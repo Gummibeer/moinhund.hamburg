@@ -6,17 +6,17 @@
                 <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/maestro.png') }}" class="img-fluid" /></div>
                 <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/visa.png') }}" class="img-fluid" /></div>
                 <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/mastercard.png') }}" class="img-fluid" /></div>
-                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/amex.png') }}" class="img-fluid" /></div>
-                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/applepay.png') }}" class="img-fluid" /></div>
-                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/androidpay.png') }}" class="img-fluid" /></div>
-                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/contactless.png') }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm mt-3 mt-sm-0 text-center"><img src="{{ url('img/payment/amex.png') }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm mt-3 mt-sm-0 text-center"><img src="{{ url('img/payment/applepay.png') }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm mt-3 mt-sm-0 text-center"><img src="{{ url('img/payment/androidpay.png') }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm mt-3 mt-sm-0 text-center"><img src="{{ url('img/payment/contactless.png') }}" class="img-fluid" /></div>
             </div>
         </div>
     </section>
     <section class="info">
         <div class="container clearfix">
             <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 mt-md-0">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-0">
                     <h4>Kontakt</h4>
                     <ul class="list-unstyled">
                         <li><strong>Moin Hund</strong></li>
@@ -90,7 +90,7 @@
                     <p>
                         Du möchtest immer auf dem Laufenden bleiben und nichts verpassen? Dann folge uns doch einfach!
                     </p>
-                    <ul class="list-inline">
+                    <ul class="list-inline m-0">
                         <li class="list-inline-item">
                             <a href="https://facebook.com/MoinHund" target="_blank" class="btn btn-light rounded-circle">
                                 <i class="fab fa-facebook"></i>
