@@ -43,12 +43,14 @@
                     <ul class="list-unstyled">
                         @foreach($weekdays as $weekday => $name)
                             <li>
-                                <strong style="display: inline-block; width: 2rem;">{{ $name }}</strong>
+                                <strong style="display: inline-block; width: 2rem; color: #C0C0C0;">{{ $name }}</strong>
+                                @if($weekday == $now->dayOfWeek) <strong> @endif
                                 @if($opening_hours[$weekday])
                                     {{ $opening_hours[$weekday]['start'] }} - {{ $opening_hours[$weekday]['end'] }}
                                 @else
                                     geschlossen
                                 @endif
+                                @if($weekday == $now->dayOfWeek) </strong> @endif
                             </li>
                         @endforeach
                     </ul>
