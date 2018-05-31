@@ -39,4 +39,16 @@
             </span>
         </div>
     </section>
+    @if(app('request')->path() != '/')
+    <section style="background: #E5E5E5;">
+        <div class="container">
+            <nav>
+                <ol class="breadcrumb m-0 px-0" style="background: transparent;">
+                    <li class="breadcrumb-item"><a href="{{ url() }}">Startseite</a></li>
+                    <li class="breadcrumb-item active">@if(isset($title)) {{ $title }} @else {{ title_case(app('request')->path()) }} @endif</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    @endif
 </header>
