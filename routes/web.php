@@ -28,6 +28,14 @@ function build_schema()
         ->image('https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/17389076_1109289709216268_4022540907275183257_o.jpg?_nc_cat=0&_nc_eui2=AeF4lsqTdMVgufEMMxMQzLtWkAXeTAKbgchib5dmqgTnQ6ymz7DdtSf5TIXm12GqOM3s__kgMKdYRDLE2KwBK9_sn1l2Rb50eg4i_Nf1_dnx9g&oh=fc7ff1bde405f38cb4912ccf3d66b1a9&oe=5B796A26')
         ->logo('https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/17389076_1109289709216268_4022540907275183257_o.jpg?_nc_cat=0&_nc_eui2=AeF4lsqTdMVgufEMMxMQzLtWkAXeTAKbgchib5dmqgTnQ6ymz7DdtSf5TIXm12GqOM3s__kgMKdYRDLE2KwBK9_sn1l2Rb50eg4i_Nf1_dnx9g&oh=fc7ff1bde405f38cb4912ccf3d66b1a9&oe=5B796A26')
         ->currenciesAccepted('EUR')
+        ->paymentAccepted([
+            'Cash',
+            'EC Card',
+            'Maestro Card',
+            'Credit Card',
+            'Apple Pay',
+            'Android Pay',
+        ])
         ->openingHours([
             'Mo-Fr 10:00-18:00',
             'Sa 10:00-13:00',
@@ -59,6 +67,7 @@ function build_schema()
             'https://www.google.com/maps?cid=9367165860801608956',
         ])
         ->publicAccess(true)
+        ->isAccessibleForFree(true)
         ->smokingAllowed(false)
         ->geo(
             Schema::geoCoordinates()
