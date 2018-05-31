@@ -7,9 +7,9 @@
         </div>
         <div class="col-md-6 content-section">
             <div>
-                <p class="mb-2" style="font-size:2.5rem; white-space: nowrap;">{!! $icons !!}</p>
+                <p class="mb-2" style="font-size: 2.5rem; white-space: nowrap;">{!! $icons !!}</p>
                 <h2 class="mt-0 mb-3">{{ $headline }}</h2>
-                <p class="w-75 mx-auto">{!! $text !!}</p>
+                <p class="w-75 mx-auto mb-0">{!! $text !!}</p>
             </div>
         </div>
     </div>
