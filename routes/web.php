@@ -90,3 +90,10 @@ $router->get('impressum', function () use ($router) {
 
     return view('page', $data);
 });
+
+$router->get('datenschutz', function () use ($router) {
+    $data = basic_view_data();
+    $data['content'] = json_decode(file_get_contents(resource_path('data/privacy.json')), true);
+
+    return view('page', $data);
+});
