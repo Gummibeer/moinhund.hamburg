@@ -4,7 +4,7 @@
         <div class="owl-carousel owl-theme">
             @foreach(collect($reviews)->shuffle() as $review)
             <div class="item">
-                <blockquote class="w-50 mx-auto">
+                <blockquote class="w-75 mx-auto">
                     <p class="mb-2">{!! $review['text'] !!}</p>
                     <footer>&mdash;&nbsp;<cite>{{ $review['author'] }}</cite></footer>
                 </blockquote>
