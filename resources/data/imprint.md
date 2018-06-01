@@ -1,13 +1,15 @@
 # Impressum
 
-## Angaben gemäß § 5 TMG
-
+**Angaben gemäß § 5 TMG**  
 T.J.H. Hamburger Hunde GmbH  
 Alte Landstraße 62  
 22339 Hamburg  
 Deutschland
 
 **Vertreten durch:**  
+Tanja Nasilowski
+
+**Geschäftsführerin:**  
 Tanja Nasilowski
 
 **Kontakt:**  
@@ -22,7 +24,19 @@ Registernummer: HRB 131412
 **Umsatzsteuer-ID:**   
 Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DE294323956
 
-## Haftungsausschluss: 
+**Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:**  
+Tanja Nasilowski  
+Alte Landstrasse 62  
+22339 Hamburg
+
+**Technische Konzeption, Design & Programmierung:**  
+Gummibeer (Tom Witkowski)  
+[https://gummibeer.de](https://gummibeer.de)
+
+**Streitschlichtung**  
+Informationen zur Europäischen Online-Streitbeilegungs-Plattform und zur Teilnahme an Streitbelegungsverfahren vor Verbraucherschlichtungsstellen: Nach geltendem Recht sind wir verpflichtet, die Verbraucher auf die Existenz der Europäischen Online-Streitbeilegungs-Plattform hinzuweisen, die für die Beilegung von Streitigkeiten genutzt werden kann, ohne dass ein Gericht eingeschaltet werden muss. Für die Einrichtung der Plattform ist die Europäische Kommission zuständig. Sie finden die Europäische Online-Streitbeilegungs-Plattform hier: [http://ec.europa.eu/consumers/odr/](http://ec.europa.eu/consumers/odr/). Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind wir weder verpflichtet noch bereit.
+
+## Haftungsausschluss
 
 ### Haftung für Inhalte
 
