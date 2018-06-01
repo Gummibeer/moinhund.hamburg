@@ -17,4 +17,9 @@ class Welcome extends Element
         'background' => 'string',
         'logo' => 'string',
     ];
+
+    protected $normalizers = [
+        'background' => 'url',
+        'logo' => 'url',
+    ];
 }
