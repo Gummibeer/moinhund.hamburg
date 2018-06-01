@@ -33,4 +33,8 @@ class ImageText extends Element
         'direction' => ['ltr', 'rtl'],
         'position' => ['top', 'center', 'bottom'],
     ];
+
+    protected $normalizers = [
+        'image' => 'url',
+    ];
 }
