@@ -57,7 +57,7 @@ function build_schema()
                 ->givenName('Tanja')
         )
         ->url([
-            'https://moinhund.hamburg',
+            url(),
             'https://moin-hund.de',
         ])
         ->taxID('DE294323956')
