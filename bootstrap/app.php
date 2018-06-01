@@ -80,6 +80,9 @@ $app->singleton(
 
 $app->register(\Curlyspoon\Cms\CurlyspoonServiceProvider::class);
 
+$app->make(\Curlyspoon\Cms\Contracts\NormalizerManager::class)->register('url', function(\Symfony\Component\OptionsResolver\Options $options, $value) {
+    return url($value);
+});
 
 /*
 |--------------------------------------------------------------------------
