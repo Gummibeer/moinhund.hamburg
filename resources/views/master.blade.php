@@ -6,7 +6,8 @@
 
     <title>@if(app('request')->path() != '/') @if(isset($title)) {{ $title }} @else {{ title_case(app('request')->path()) }} @endif | @endif Moin Hund</title>
 
-    <link rel="shortcut icon" href="{{ url('img/favicon.ico') }}" type="image/x-icon" />
+    <link rel="icon" type="image/png" href="{{ url('img/logo.png') }}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url('img/favicon.ico') }}" />
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700|Roboto+Mono:400,700|Roboto+Slab:400,700">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.13/css/all.css">

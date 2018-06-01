@@ -3,7 +3,7 @@
     "type": "welcome",
     "data": {
       "background": "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/18275148_1145406238937948_7616892337119465569_n.jpg?_nc_cat=0&_nc_eui2=AeGZmWzgXceq1Qaf08GTQDt4hbjHE5gDSWCl_zlIQi66DcYxvWp0i72ACLYoZTs_q7Qn7WwlKlxwlJxmi6khh3oX_7kBvlI7kww69iMRetmO6w&oh=ddbc71746f6f6d9b84075f40ea92e241&oe=5BBE65E2",
-      "logo": "https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/17389076_1109289709216268_4022540907275183257_o.jpg?_nc_cat=0&_nc_eui2=AeF4lsqTdMVgufEMMxMQzLtWkAXeTAKbgchib5dmqgTnQ6ymz7DdtSf5TIXm12GqOM3s__kgMKdYRDLE2KwBK9_sn1l2Rb50eg4i_Nf1_dnx9g&oh=fc7ff1bde405f38cb4912ccf3d66b1a9&oe=5B796A26"
+      "logo": "img/logo.png"
     }
   }, {
     "type": "icons_text",
