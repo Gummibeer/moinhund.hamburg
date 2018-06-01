@@ -53,13 +53,19 @@ class Handler extends ExceptionHandler
 
         $fe = FlattenException::create($e);
         $status = $fe->getStatusCode();
-        $error = array_get(Response::$statusTexts, $fe->getStatusCode(), 'Error');
+        $baseError = substr($status, 0, 1).'00';
 
         $data = basic_view_data();
         $data['status'] = $status;
-        $data['error'] = $error;
-        $data['title'] = 'Fehler '.$status;
 
-        return response(view('error', $data), $status);
+        if(view()->exists('error.'.$status)) {
+            $view = view('error.'.$status, $data);
+        } elseif(view()->exists('error.'.$baseError)) {
+            $view = view('error.'.$baseError, $data);
+        } else {
+            $view = view('error.basic', $data);
+        }
+
+        return response($view, $status);
     }
 }
