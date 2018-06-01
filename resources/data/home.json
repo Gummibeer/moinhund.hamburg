@@ -11,16 +11,16 @@
       "headline": "Unser Sortiment",
       "icons": [
         {
-          "icon": "https://cdn0.iconfinder.com/data/icons/pet-shop-related-flat/64/pet_shop-29-512.png",
+          "icon": "img/icon/svg/collar.svg",
           "label": "Leinen & Halsbänder"
         }, {
-          "icon": "https://cdn0.iconfinder.com/data/icons/pet-shop-related-flat/64/pet_shop-32-512.png",
+          "icon": "img/icon/svg/bowl.svg",
           "label": "Futter & Leckerchen"
         }, {
-          "icon": "https://cdn0.iconfinder.com/data/icons/pet-shop-related-flat/64/pet_shop-25-512.png",
+          "icon": "img/icon/svg/cattoy.svg",
           "label": "Spielzeug"
         }, {
-          "icon": "https://cdn2.iconfinder.com/data/icons/sofa-and-chair-2-flat/64/sofa-35-512.png",
+          "icon": "img/icon/svg/bed.svg",
           "label": "Betten"
         }
       ],
