@@ -21,6 +21,14 @@ a:active {
     text-align: center;
     padding: 0.75rem 0;
 }
+
+#header .banner img.emoji {
+    display: inline-block;
+    font-size: 1.25rem;
+    animation: wiggle 1.5s infinite;
+    vertical-align: middle;
+}
+
 #header .store-info {
     background: #033157;
     color: #E5E5E5;
@@ -122,4 +130,17 @@ iframe {
     padding: 0;
     overflow: hidden;
     display: block;
+    max-height: calc(100vh / 3 * 2);
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+    40% { transform: rotate(0deg); }
+    45% { transform: rotate(10deg); }
+    55% { transform: rotate(-10deg); }
+    65% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
+    85% { transform: rotate(10deg); }
+    95% { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }
 }
