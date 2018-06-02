@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700|Roboto+Mono:400,700|Roboto+Slab:400,700">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.13/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ url('css/owlcarousel.css') }}">
-    <link rel="stylesheet" href="{{ url('css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url('css/owlcarousel.css?v='.env('APP_VERSION', time())) }}">
+    <link rel="stylesheet" href="{{ url('css/styles.css?v='.env('APP_VERSION', time())) }}">
 </head>
 <body>
 
@@ -41,7 +41,10 @@
                 }
             },
             items: 1,
-            autoHeight: true
+            autoHeight: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true
         });
 
         twemoji.parse(document.body, {
