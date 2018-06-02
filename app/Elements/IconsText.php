@@ -13,13 +13,15 @@ class IconsText extends Element
     protected $required = [
         'headline',
         'icons',
-        'text',
+        'text_1',
+        'text_2',
     ];
 
     protected $types = [
         'headline' => 'string',
         'icons' => 'array[]',
-        'text' => 'string',
+        'text_1' => 'string',
+        'text_2' => 'string',
     ];
 
     public function __construct(array $options = [])
@@ -28,9 +30,10 @@ class IconsText extends Element
 
         foreach($this->options['icons'] as $i => $icon) {
             $resolver = new OptionsResolver();
-            $resolver->setRequired(['icon', 'label']);
+            $resolver->setRequired(['icon', 'adjective', 'label']);
             $resolver->setAllowedTypes('icon', 'string');
             $resolver->setNormalizer('icon', app(NormalizerManager::class)->normalizer('url'));
+            $resolver->setAllowedTypes('adjective', 'string');
             $resolver->setAllowedTypes('label', 'string');
             $this->options['icons'][$i] = $resolver->resolve($icon);
         }

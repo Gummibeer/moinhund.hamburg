@@ -9,22 +9,27 @@
     "type": "icons_text",
     "data": {
       "headline": "Unser Sortiment",
+      "text_1": "Wir freuen und warten auf euch mit ...",
       "icons": [
         {
           "icon": "img/icon/svg/collar.svg",
+          "adjective": "handgefertigten",
           "label": "Leinen & Halsbänder"
         }, {
           "icon": "img/icon/svg/bowl.svg",
-          "label": "Futter & Leckerchen"
+          "adjective": "leckerem",
+          "label": "Futter & Kauartikeln"
         }, {
           "icon": "img/icon/svg/cattoy.svg",
-          "label": "Spielzeug"
+          "adjective": "wunderbaren",
+          "label": "Spielzeugen"
         }, {
           "icon": "img/icon/svg/bed.svg",
+          "adjective": "kuscheligen",
           "label": "Betten"
         }
       ],
-      "text": "Wir haben noch vieles mehr und falls du nicht finden solltest was du suchst können wir es dir bestimmt bestellen. Wenn du etwas bestimmtes suchst kannst du uns auch gern anrufen oder per Facebook fragen."
+      "text_2": "... aber auch gesundem BARF, hübscher Bekleidung, herrlichen Pflegeprodukten und sonstigem Hundezubehör."
     }
   }, {
     "type": "image_text",
@@ -33,7 +38,7 @@
       "image": "https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/29872201_2098115370418551_5104023072894617645_o.jpg?_nc_cat=0&_nc_eui2=AeGAmlkzWZso6U5BDEWuJwy-hV930YMBeW_xTVPO9n1iYrZ47pmhz3OHFD3pc98jbgbJqwHLHZDIVTGMWouIFKnTlftuUzR359D_dB9lSQHIbA&oh=bdf635dc6a7845aeb91c696f1a43a242&oe=5B7AC094",
       "icons": "🏅 🎗",
       "headline": "Alsterstars",
-      "text": "Egal ob WoufPouf, andere Betten Marke oder noch eine Marke - wir haben sie alle im!<br/>Wenn du deinem Hund einen bequemen Liegeplatz bieten möchtest dann sind diese Betten genau das richtige. Wenn du magst auch groß genug damit du dich dazu legen kannst. 😉"
+      "text": "Keinen Bock auf 0815 Leinen und Halsbänder die jeder Hundebesitzer hat? Kein Problem! Bei uns bekommst du diese individuell auf deine Wünsche abgestimmt - von der Eigenmarke Alsterstars! Eurer Kreativität sind keine Grenzen gesetzt!"
     }
   }, {
     "type": "image_text",
@@ -42,7 +47,7 @@
       "image": "https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/20863383_1227801747365063_6001474609610466305_o.jpg?_nc_cat=0&_nc_eui2=AeFljv7C9Y24_OrQXBOzvnsKqvdEKEz9bGMvIkAGhddz6MHNubiF3zU6lGPCxK5oBMwVjFVgV2d6CFWMIaC5v6CJrgetHZcGSOOkWaGpDWDHWw&oh=134795fc81bf2e92eb305936dc399206&oe=5B7B20DC",
       "icons": "🎀 🧣",
       "headline": "Leinen & Halsbänder",
-      "text": "Egal ob WoufPouf, andere Betten Marke oder noch eine Marke - wir haben sie alle im!<br/>Wenn du deinem Hund einen bequemen Liegeplatz bieten möchtest dann sind diese Betten genau das richtige. Wenn du magst auch groß genug damit du dich dazu legen kannst. 😉"
+      "text": "Bei uns findest du natürlich auch wunderbare Einzelstücke aus verschiedenen Manufakturen oder Biothaneleinen ganz nach deinen Wünschen."
     }
   }, {
     "type": "image_text",
@@ -51,7 +56,7 @@
       "image": "https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/25398277_1311677978977439_9172241292872015444_o.jpg?_nc_cat=0&_nc_eui2=AeGFSF7eRb8E9U8Vep2RZsI_eeYObg0g6o0SyfNx5vjuxCJzuaq7-y_JbP4wQTzv5m7qKaEVt3yNJ4wj0fjpOfUtAC5JHKluJePPMtkE30aY1Q&oh=08c7603752aa7a2acd3007dbf5fb67af&oe=5BC4E825",
       "icons": "🍲 🥩 🥫",
       "headline": "Futter & Leckerchen",
-      "text": "Egal ob WoufPouf, andere Betten Marke oder noch eine Marke - wir haben sie alle im!<br/>Wenn du deinem Hund einen bequemen Liegeplatz bieten möchtest dann sind diese Betten genau das richtige. Wenn du magst auch groß genug damit du dich dazu legen kannst. 😉"
+      "text": "Wir legen großen Wert auf gute und gesunde Hundenahrung. Regionale Anbieter und ausgewählte Bioqualität haben wir immer auf Lager, aber auch eure individuellen Trockenfutter und Nassfutterbestellungen sind kein Problem für uns. Einfach Fragen und wir kümmern uns."
     }
   }, {
     "type": "image_text",
@@ -60,7 +65,7 @@
       "image": "https://scontent-frx5-1.xx.fbcdn.net/v/l/t31.0-8/22538796_1269474186531152_1546878941511683876_o.jpg?_nc_cat=0&_nc_eui2=AeF5MiBk_sPFLCIIkvugnPH6sYmJ3AKeKvNQaBYaOXewxRF21ye9sEGqtsqXl8NidoxPonjDhzkyxa4wwkgRgxckLdUblHctQsO46Zt-F8_RXg&oh=e57fc0d8186a6ed4edf0f86093c50877&oe=5B8A3F1A",
       "icons": "🍖 🍪 🍗",
       "headline": "Kauartikel",
-      "text": "Egal ob WoufPouf, andere Betten Marke oder noch eine Marke - wir haben sie alle im!<br/>Wenn du deinem Hund einen bequemen Liegeplatz bieten möchtest dann sind diese Betten genau das richtige. Wenn du magst auch groß genug damit du dich dazu legen kannst. 😉"
+      "text": "Fast 100 verschiedene Kauartikel und es werden immer mehr. Wir haben für jeden Geschmack etwas dabei. Natürlich finden auch Allergiker etwas - alles absolut natürlich und ohne Zusätze!"
     }
   }, {
     "type": "image_text",
@@ -69,7 +74,7 @@
       "image": "https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/22426248_1266019460209958_524489849818689909_o.jpg?_nc_cat=0&_nc_eui2=AeEYUjw5IdOsdWqMG6iNLI1mvrXAjrXWJTwc04BR-q_DSgo9nw__Z3oZyd4ezHSwzr6n6ybFgr9MIz95pNQBnTP8Xdwk4xW7Li5kehgE48YxCw&oh=dfba5b75a4dacc2e08aa3911500b0779&oe=5BBC4C1E",
       "icons": "🎾 🏸 🎋",
       "headline": "Spielzeug",
-      "text": "Egal ob WoufPouf, andere Betten Marke oder noch eine Marke - wir haben sie alle im!<br/>Wenn du deinem Hund einen bequemen Liegeplatz bieten möchtest dann sind diese Betten genau das richtige. Wenn du magst auch groß genug damit du dich dazu legen kannst. 😉"
+      "text": "Wir legen großen Wert auf Qualität und Haltbarkeit. Die Auswahl an Spielzeug ist riesig und euer Vierbeiner wird mit Sicherheit genauso darauf abfahren, wie unsere Hauseigenen Tester - Nane und Chewy."
     }
   }, {
     "type": "image_text",
@@ -79,7 +84,7 @@
       "position": "top",
       "icons": "🛋 😴",
       "headline": "Betten",
-      "text": "Egal ob WoufPouf, andere Betten Marke oder noch eine Marke - wir haben sie alle im!<br/>Wenn du deinem Hund einen bequemen Liegeplatz bieten möchtest dann sind diese Betten genau das richtige. Wenn du magst auch groß genug damit du dich dazu legen kannst. 😉"
+      "text": "Lederbetten, Stoffbetten, Kuschelhöhlen, WoufPoufs, Decken, Autositze und noch vieles mehr. Für jeden Geschmack etwas dabei und wenn doch was fehlt, bestellen wir es selbstverständlich gerne für dich."
     }
   }, {
     "type": "reviews",
