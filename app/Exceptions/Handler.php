@@ -47,7 +47,7 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $e)
     {
-        if(config('app.debug', false)) {
+        if(env('APP_DEBUG', config('app.debug', false))) {
             return parent::render($request, $e);
         }
 
