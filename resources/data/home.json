@@ -2,7 +2,7 @@
   {
     "type": "welcome",
     "data": {
-      "background": "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/18275148_1145406238937948_7616892337119465569_n.jpg?_nc_cat=0&_nc_eui2=AeGZmWzgXceq1Qaf08GTQDt4hbjHE5gDSWCl_zlIQi66DcYxvWp0i72ACLYoZTs_q7Qn7WwlKlxwlJxmi6khh3oX_7kBvlI7kww69iMRetmO6w&oh=ddbc71746f6f6d9b84075f40ea92e241&oe=5BBE65E2",
+      "background": "img/content/welcome.jpg",
       "logo": "img/logo.png"
     }
   }, {
@@ -44,7 +44,8 @@
     "type": "image_text",
     "data": {
       "direction": "ltr",
-      "image": "https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/20863383_1227801747365063_6001474609610466305_o.jpg?_nc_cat=0&_nc_eui2=AeFljv7C9Y24_OrQXBOzvnsKqvdEKEz9bGMvIkAGhddz6MHNubiF3zU6lGPCxK5oBMwVjFVgV2d6CFWMIaC5v6CJrgetHZcGSOOkWaGpDWDHWw&oh=134795fc81bf2e92eb305936dc399206&oe=5B7B20DC",
+      "position": "top",
+      "image": "img/content/halsbaender.jpg",
       "icons": "🎀 🧣",
       "headline": "Leinen & Halsbänder",
       "text": "Bei uns findest du natürlich auch wunderbare Einzelstücke aus verschiedenen Manufakturen oder Biothaneleinen ganz nach deinen Wünschen."
@@ -53,7 +54,8 @@
     "type": "image_text",
     "data": {
       "direction": "rtl",
-      "image": "https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/25398277_1311677978977439_9172241292872015444_o.jpg?_nc_cat=0&_nc_eui2=AeGFSF7eRb8E9U8Vep2RZsI_eeYObg0g6o0SyfNx5vjuxCJzuaq7-y_JbP4wQTzv5m7qKaEVt3yNJ4wj0fjpOfUtAC5JHKluJePPMtkE30aY1Q&oh=08c7603752aa7a2acd3007dbf5fb67af&oe=5BC4E825",
+      "position": "bottom",
+      "image": "img/content/futter.jpg",
       "icons": "🍲 🥩 🥫",
       "headline": "Futter & Leckerchen",
       "text": "Wir legen großen Wert auf gute und gesunde Hundenahrung. Regionale Anbieter und ausgewählte Bioqualität haben wir immer auf Lager, aber auch eure individuellen Trockenfutter und Nassfutterbestellungen sind kein Problem für uns. Einfach Fragen und wir kümmern uns."
@@ -62,7 +64,7 @@
     "type": "image_text",
     "data": {
       "direction": "ltr",
-      "image": "https://scontent-frx5-1.xx.fbcdn.net/v/l/t31.0-8/22538796_1269474186531152_1546878941511683876_o.jpg?_nc_cat=0&_nc_eui2=AeF5MiBk_sPFLCIIkvugnPH6sYmJ3AKeKvNQaBYaOXewxRF21ye9sEGqtsqXl8NidoxPonjDhzkyxa4wwkgRgxckLdUblHctQsO46Zt-F8_RXg&oh=e57fc0d8186a6ed4edf0f86093c50877&oe=5B8A3F1A",
+      "image": "img/content/kauartikel.jpg",
       "icons": "🍖 🍪 🍗",
       "headline": "Kauartikel",
       "text": "Fast 100 verschiedene Kauartikel und es werden immer mehr. Wir haben für jeden Geschmack etwas dabei. Natürlich finden auch Allergiker etwas - alles absolut natürlich und ohne Zusätze!"
@@ -71,7 +73,7 @@
     "type": "image_text",
     "data": {
       "direction": "rtl",
-      "image": "https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/22426248_1266019460209958_524489849818689909_o.jpg?_nc_cat=0&_nc_eui2=AeEYUjw5IdOsdWqMG6iNLI1mvrXAjrXWJTwc04BR-q_DSgo9nw__Z3oZyd4ezHSwzr6n6ybFgr9MIz95pNQBnTP8Xdwk4xW7Li5kehgE48YxCw&oh=dfba5b75a4dacc2e08aa3911500b0779&oe=5BBC4C1E",
+      "image": "img/content/spielzeug.jpg",
       "icons": "🎾 🏸 🎋",
       "headline": "Spielzeug",
       "text": "Wir legen großen Wert auf Qualität und Haltbarkeit. Die Auswahl an Spielzeug ist riesig und euer Vierbeiner wird mit Sicherheit genauso darauf abfahren, wie unsere Hauseigenen Tester - Nane und Chewy."
@@ -80,8 +82,7 @@
     "type": "image_text",
     "data": {
       "direction": "ltr",
-      "image": "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/29066814_1376665295812040_134329594718191616_o.jpg?_nc_cat=0&_nc_eui2=AeHkAIaQmB-15DCs3K107sKfbiBkg8GNBkDlxDa34-8uKHNHr5qB06YEIwcn1hrIbxvHLqz4LBf4lk6oVxvcjMLGA7eeXOez10hh8E676F0VCA&oh=7313f7cfe42e93d31ac88caa29178b2e&oe=5B7A3A31",
-      "position": "top",
+      "image": "img/content/betten.jpg",
       "icons": "🛋 😴",
       "headline": "Betten",
       "text": "Lederbetten, Stoffbetten, Kuschelhöhlen, WoufPoufs, Decken, Autositze und noch vieles mehr. Für jeden Geschmack etwas dabei und wenn doch was fehlt, bestellen wir es selbstverständlich gerne für dich."
