@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,9 +16,8 @@
     <link rel="icon" type="image/png" href="{{ url('img/logo.png') }}" />
     <link rel="shortcut icon" type="image/x-icon" href="{{ url('img/favicon.ico') }}" />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700|Roboto+Mono:400,700|Roboto+Slab:400,700">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.13/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url('css/fontawesome.min.css?v='.env('APP_VERSION', time())) }}">
+    <link rel="stylesheet" href="{{ url('css/bootstrap.min.css?v='.env('APP_VERSION', time())) }}">
     <link rel="stylesheet" href="{{ url('css/owlcarousel.css?v='.env('APP_VERSION', time())) }}">
     <link rel="stylesheet" href="{{ url('css/styles.css?v='.env('APP_VERSION', time())) }}">
 </head>
@@ -32,9 +31,9 @@
 
 @include('partials.footer')
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="https://twemoji.maxcdn.com/2/twemoji.min.js?2.7"></script>
+<script src="{{ url('js/jquery.min.js?v='.env('APP_VERSION', time())) }}"></script>
+<script src="{{ url('js/owlcarousel.min.js?v='.env('APP_VERSION', time())) }}"></script>
+<script src="{{ url('js/twemoji.min.js?v='.env('APP_VERSION', time())) }}"></script>
 
 <script>
     $(window).on('load', function() {
@@ -55,17 +54,22 @@
         });
 
         twemoji.parse(document.body, {
+            base: '{{ url('twemoji') }}',
             size: 'svg',
             ext: '.svg',
             callback: function(icon, options, variant) {
-                switch ( icon ) {
+                switch(icon) {
                     case 'a9':      // © copyright
                     case 'ae':      // ® registered trademark
                     case '2122':    // ™ trademark
                         return false;
                 }
 
-                return ''.concat(options.base, options.size, '/', icon, options.ext);
+                if(!icon) {
+                    return false;
+                }
+
+                return ''.concat(options.base, '/', options.size, '/', icon, options.ext);
             }
         });
     });
