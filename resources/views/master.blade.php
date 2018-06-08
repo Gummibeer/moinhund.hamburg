@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>@if(app('request')->path() != '/') @if(isset($title)) {{ $title }} @else {{ title_case(app('request')->path()) }} @endif | @endif Moin Hund</title>
+    <meta name="description" content="Wir freuen uns und warten auf euch mit handgefertigten Leinen & Halsbänder, leckerem Futter & Kauartikeln, wunderbaren Spielzeugen, kuscheligen Betten aber auch gesundem BARF, hübscher Bekleidung, herrlichen Pflegeprodukten und sonstigem Hundezubehör.">
+
+    <meta property="og:url" content="{{ app('url')->current() }}">
+    <meta property="og:title" content="@if(app('request')->path() != '/') @if(isset($title)) {{ $title }} @else {{ title_case(app('request')->path()) }} @endif | @endif Moin Hund">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ url('img/og_banner.jpg') }}">
+    <meta property="og:description" content="Wir freuen uns und warten auf euch mit handgefertigten Leinen & Halsbänder, leckerem Futter & Kauartikeln, wunderbaren Spielzeugen, kuscheligen Betten aber auch gesundem BARF, hübscher Bekleidung, herrlichen Pflegeprodukten und sonstigem Hundezubehör.">
 
     <link rel="icon" type="image/png" href="{{ url('img/logo.png') }}" />
     <link rel="shortcut icon" type="image/x-icon" href="{{ url('img/favicon.ico') }}" />
