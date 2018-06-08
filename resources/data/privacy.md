@@ -1,4 +1,4 @@
-# Datenschutzerklärung
+# Datenschutz&shy;erklärung
 
 Wir freuen uns über deinen Besuch auf unserer Webseite. Wir legen großen Wert auf den Schutz deiner persönlichen Daten. In dieser Datenschutzerklärung informieren wir dich über die Verarbeitung personenbezogener Daten bei der Nutzung unserer Website.
 
@@ -10,7 +10,7 @@ Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Date
 
 Ansprechpartner und Verantwortlicher für die Verarbeitung deiner personenbezogenen Daten bei Besuch dieser Website im Sinne der EU-Datenschutzgrundverordnung (DSGVO) ist Moin Hund (T.J.H. Hamburger Hunde GmbH - [Impressum](/impressum)).
 
-## Datenverarbeitung auf unserer Website
+## Daten&shy;verarbeitung auf unserer Website
 
 ### Server-Logs
 
@@ -29,7 +29,7 @@ Die in den Logfiles gespeicherten Informationen lassen keinen unmittelbaren Rüc
 
 Du hast verschiedene Möglichkeiten mit uns in Kontakt zu treten. In diesem Zusammenhang verarbeiten wir deine Kontaktdaten und die von dir sonst bei der Kontaktaufnahme angegebenen Daten ausschließlich zur Kommunikation mit dir. Die Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.
 
-### E-Mail-Sicherheit
+### E-Mail Sicherheit
 
 Du bist mit elektronischer Kommunikation einverstanden, sobald du selbst den elektronischen Kontakt zu uns eröffnest. Wir weisen dich darauf hingewiesen, dass E-Mails auf dem Übertragungsweg unbefugt und unbemerkt mitgelesen oder verändert werden können. Wir verwenden eine Software zur Filterung von unerwünschten E-Mails (Spam-Filter). Durch den Spam-Filter können E-Mails abgewiesen werden, wenn diese durch bestimmte Merkmale fälschlich als Spam identifiziert wurden.
 
@@ -68,7 +68,7 @@ Soweit wir Deine Daten auf Grundlage von berechtigten Interessen gemäß Art. 6 
 
 Möchtest du von deinem Widerrufs- oder Widerspruchsrecht Gebrauch machen, genügt eine formlose Mitteilung an die oben genannten Kontaktdaten.
 
-## Datensicherheit
+## Daten&shy;sicherheit
 
 Wir unterhalten aktuelle technische Maßnahmen zur Gewährleistung der Datensicherheit, insbesondere zum Schutz deiner personenbezogenen Daten vor Gefahren bei Datenübertragungen sowie vor Kenntniserlangung durch Dritte. Diese werden dem aktuellen Stand der Technik entsprechend jeweils angepasst. Zur Sicherung der von dir auf unserer Website angegebenen persönlichen Daten verwenden wir den Transport Layer Security (TLS), der die von dir eingegebenen Informationen verschlüsselt.
 
@@ -76,11 +76,11 @@ Wir unterhalten aktuelle technische Maßnahmen zur Gewährleistung der Datensich
 
 Auf unserer Website wird Google Maps (API) der Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA (“Google”) eingesetzt. Google Maps ist ein Webdienst zur Darstellung von interaktiven (Land-)Karten, um geographische Informationen visuell darzustellen. Bereits beim Aufrufen derjenigen Unterseiten, in die die Karte von Google Maps eingebunden ist, werden Informationen über die Nutzung der Webseite (wie z. B. die IP-Adresse des Nutzers) an Server von Google in den USA übertragen und dort gespeichert.  
 Google wird diese Informationen ggf. weiter an Dritte übertragen, soweit dies gesetzlich vorgeschrieben ist oder Dritte diese Daten im Auftrag von Google verarbeiten. Google wird die IP-Adresse des Nutzers nicht mit anderen Daten von Google in Verbindung bringen. Dennoch wäre es technisch möglich, dass Google die durch die Nutzung von Google Maps erhaltenen Nutzerdaten zur Identifizierung der Nutzer verwendet, daraus Persönlichkeitsprofile von Nutzern erstellt oder für fremde Zwecke verarbeitet und verwendet, worauf wir jeweils keinen Einfluss haben.  
-Die Nutzungsbedingungen von Google können unter [http://www.google.de/intl/de/policies/terms/regional.html](http://www.google.de/intl/de/policies/terms/regional.html) eingesehen werden.  
-Die zusätzlichen Nutzungsbedingungen für Google Maps sind einzusehen unter [https://www.google.com/intl/de_US/help/terms_maps.html](https://www.google.com/intl/de_US/help/terms_maps.html).  
-Ausführliche Informationen zum Datenschutz im Zusammenhang mit der Verwendung von Google Maps sind auf der Internetseite von Google („Google Privacy Policy“) zu finden: [http://www.google.de/intl/de/policies/privacy/](http://www.google.de/intl/de/policies/privacy/).  
+Die Nutzungsbedingungen von Google können unter [policies.google.com/terms](https://policies.google.com/terms) eingesehen werden.  
+Die zusätzlichen Nutzungsbedingungen für Google Maps sind einzusehen unter [google.com/intl/de/help/terms_maps.html](https://www.google.com/intl/de/help/terms_maps.html).  
+Ausführliche Informationen zum Datenschutz im Zusammenhang mit der Verwendung von Google Maps sind auf der Internetseite von Google („Google Privacy Policy“) zu finden: [policies.google.com/privacy](https://policies.google.com/privacy).  
 Wenn der Nutzer mit der künftigen Übermittlung seiner Daten an Google im Rahmen der Nutzung von Google Maps nicht einverstanden ist, besteht die Möglichkeit, den Webdienst von Google Maps vollständig zu deaktivieren, indem der Nutzer die Anwendung JavaScript in seinem Browser ausschaltet. Google Maps und damit auch die Kartenanzeige auf der Webseite kann dann nicht genutzt werden.
 
-## Änderungen der Datenschutzerklärung
+## Änderungen der Datenschutz&shy;erklärung
 
 Gelegentlich aktualisieren wir diese Datenschutzerklärung, beispielsweise wenn wir unsere Website anpassen oder sich die gesetzlichen oder behördlichen Vorgaben ändern.

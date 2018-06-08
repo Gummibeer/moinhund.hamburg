@@ -118,10 +118,10 @@
             <span class="float-left">&copy; {{ $now->year }} <a href="{{ url() }}">Moin Hund</a>; all rights reserved.</span>
             <span class="float-right">made by <a href="https://gummibeer.de" target="_blank">Gummibeer</a></span>
         </div>
-        <div class="container mt-2">
+        <div class="container mt-3 text-center">
             <ul class="list-inline m-0">
-                <li class="list-inline-item"><a href="{{ url('impressum') }}">Impressum</a></li>
-                <li class="list-inline-item"><a href="{{ url('datenschutz') }}">Datenschutz</a></li>
+                <li class="list-inline-item"><a href="{{ url('impressum') }}" class="py-1 px-2">Impressum</a></li>
+                <li class="list-inline-item"><a href="{{ url('datenschutz') }}" class="py-1 px-2">Datenschutz</a></li>
             </ul>
         </div>
     </section>
