@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-6 @if($direction == 'rtl') order-md-last @endif p-0">
             <div class="embed-responsive embed-responsive-21by9 h-100">
-                <div class="embed-responsive-item" style="background-image: url({!! $image !!}); background-size: cover; background-position: {{ $position }};"></div>
+                <div class="embed-responsive-item" style="background-image: url({!! $image !!}?v={{ env('APP_VERSION', time()) }}); background-size: cover; background-position: {{ $position }};"></div>
             </div>
         </div>
         <div class="col-md-6 content-section">
