@@ -14,5 +14,14 @@ class Markdown extends Element
 
     protected $types = [
         'file' => 'string',
+        'align' => 'string',
+    ];
+
+    protected $defaults = [
+        'align' => 'left',
+    ];
+
+    protected $values = [
+        'align' => ['left', 'center', 'right'],
     ];
 }
