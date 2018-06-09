@@ -88,6 +88,16 @@ a:active {
     padding: 0.75rem 0;
 }
 
+#header .banner a {
+    color: #E5E5E5;
+}
+
+#header .banner a:hover,
+#header .banner a:focus,
+#header .banner a:active {
+    color: #ffffff;
+}
+
 #header .banner img.emoji {
     display: inline-block;
     font-size: 1.25rem;
