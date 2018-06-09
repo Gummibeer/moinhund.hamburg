@@ -44,7 +44,6 @@
     "type": "image_text",
     "data": {
       "direction": "ltr",
-      "position": "top",
       "image": "img/content/halsbaender.jpg",
       "icons": "🎀 🧣",
       "headline": "Leinen & Halsbänder",
@@ -54,7 +53,6 @@
     "type": "image_text",
     "data": {
       "direction": "rtl",
-      "position": "bottom",
       "image": "img/content/futter.jpg",
       "icons": "🍲 🥩 🥫",
       "headline": "Futter & Leckerchen",
