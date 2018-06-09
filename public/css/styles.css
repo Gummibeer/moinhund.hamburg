@@ -199,6 +199,10 @@ iframe {
     max-height: calc(100vh / 3 * 2);
 }
 
+.embed-responsive-26by9::before {
+    padding-top: 34.615385%;
+}
+
 @keyframes wiggle {
     0% { transform: rotate(0deg); }
     40% { transform: rotate(0deg); }
