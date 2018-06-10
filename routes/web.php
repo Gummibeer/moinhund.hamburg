@@ -74,6 +74,15 @@ function build_schema()
                 ->latitude(53.6265)
                 ->longitude(10.0244)
         )
+        ->contactPoint(
+            Schema::contactPoint()
+                ->availableLanguage(
+                    Schema::language()
+                        ->name('German')
+                )
+                ->telephone('+494050098992')
+                ->contactType('customer service')
+        )
     ;
 }
 
@@ -94,6 +103,14 @@ $router->get('impressum', function () use ($router) {
 $router->get('datenschutz', function () use ($router) {
     $data = basic_view_data();
     $data['content'] = json_decode(file_get_contents(resource_path('data/privacy.json')), true);
+
+    return view('page', $data);
+});
+
+$router->get('geburtstag-verlosung', function () use ($router) {
+    $data = basic_view_data();
+    $data['content'] = json_decode(file_get_contents(resource_path('data/bday.json')), true);
+    $data['title'] = '1. Geburtstag WoufPouf Verlosung';
 
     return view('page', $data);
 });

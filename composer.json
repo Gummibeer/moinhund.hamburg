@@ -10,7 +10,7 @@
         "curlyspoon/core": "^1.2",
         "erusev/parsedown": "^1.7",
         "laravel/lumen-framework": "5.6.*",
-        "spatie/schema-org": "^1.6",
+        "spatie/schema-org": "^2.0",
         "vlucas/phpdotenv": "~2.2"
     },
     "autoload": {
