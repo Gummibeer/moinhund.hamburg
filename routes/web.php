@@ -106,11 +106,3 @@ $router->get('datenschutz', function () use ($router) {
 
     return view('page', $data);
 });
-
-$router->get('geburtstag-verlosung', function () use ($router) {
-    $data = basic_view_data();
-    $data['content'] = json_decode(file_get_contents(resource_path('data/bday.json')), true);
-    $data['title'] = '1. Geburtstag WoufPouf Verlosung';
-
-    return view('page', $data);
-});
