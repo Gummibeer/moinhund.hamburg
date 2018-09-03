@@ -32,7 +32,7 @@
             </ul>
 
             <span class="float-right">
-                <a href="https://moin-hund.de" style="color: #ffffff;">
+                <a href="https://www.moin-hund.de" style="color: #ffffff;">
                     <i class="fas fa-shopping-basket"></i>
                     Online-Shop
                 </a>
