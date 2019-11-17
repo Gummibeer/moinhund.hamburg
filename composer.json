@@ -1,7 +1,7 @@
 {
-    "name": "gummibeer/stancy-template",
+    "name": "gummibeer/moinhund.hamburg",
     "type": "project",
-    "description": "Stancy Laravel template for quickstart",
+    "description": "website: moinhund.hamburg",
     "keywords": [
         "laravel",
         "astrotomic",
@@ -11,7 +11,7 @@
     "license": "proprietary",
     "require": {
         "php": "^7.2",
-        "astrotomic/stancy": "^0.5.1",
+        "astrotomic/stancy": "^0.6.0",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.2",
         "spatie/opening-hours": "^2.7"
