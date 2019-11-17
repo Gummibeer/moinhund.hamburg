@@ -1,27 +1,26 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@if(app('request')->path() != '/') @if(isset($title)) {{ $title }} @else {{ title_case(app('request')->path()) }} @endif | @endif Moin Hund</title>
+    <title>@yield('title', config('app.name'))</title>
     <meta name="description" content="Wir freuen uns und warten auf euch mit handgefertigten Leinen & Halsbänder, leckerem Futter & Kauartikeln, wunderbaren Spielzeugen, kuscheligen Betten aber auch gesundem BARF, hübscher Bekleidung, herrlichen Pflegeprodukten und sonstigem Hundezubehör.">
 
     <meta property="og:url" content="{{ app('url')->current() }}">
-    <meta property="og:title" content="@if(app('request')->path() != '/') @if(isset($title)) {{ $title }} @else {{ title_case(app('request')->path()) }} @endif | @endif Moin Hund">
+    <meta property="og:title" content="@yield('title', config('app.name'))">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="{{ url('img/og_banner.jpg') }}">
+    <meta property="og:image" content="{{ mix('images/og_banner.jpg') }}">
     <meta property="og:description" content="Wir freuen uns und warten auf euch mit handgefertigten Leinen & Halsbänder, leckerem Futter & Kauartikeln, wunderbaren Spielzeugen, kuscheligen Betten aber auch gesundem BARF, hübscher Bekleidung, herrlichen Pflegeprodukten und sonstigem Hundezubehör.">
 
-    <link rel="icon" type="image/png" href="{{ url('img/logo.png') }}" />
-    <link rel="shortcut icon" type="image/x-icon" href="{{ url('img/favicon.ico') }}" />
+    <link rel="icon" type="image/png" href="{{ mix('images/logo.png') }}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ mix('images/favicon.ico') }}" />
 
-    <link rel="stylesheet" href="{{ url('css/fontawesome.min.css?v='.env('APP_VERSION', time())) }}">
-    <link rel="stylesheet" href="{{ url('css/bootstrap.min.css?v='.env('APP_VERSION', time())) }}">
-    <link rel="stylesheet" href="{{ url('css/owlcarousel.css?v='.env('APP_VERSION', time())) }}">
-    <link rel="stylesheet" href="{{ url('css/styles.css?v='.env('APP_VERSION', time())) }}">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
+
+    <link rel="sitemap" type="application/xml" href="{{ url('sitemap.xml') }}" title="Sitemap" />
 </head>
-<body>
+<body id="body-{{ $slug }}">
 
 @include('partials.header')
 
@@ -31,50 +30,6 @@
 
 @include('partials.footer')
 
-<script src="{{ url('js/jquery.min.js?v='.env('APP_VERSION', time())) }}"></script>
-<script src="{{ url('js/owlcarousel.min.js?v='.env('APP_VERSION', time())) }}"></script>
-<script src="{{ url('js/twemoji.min.js?v='.env('APP_VERSION', time())) }}"></script>
-
-<script>
-    $(window).on('load', function() {
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            nav: false,
-            dots: true,
-            responsive: {
-                0: {
-                    items: 1
-                }
-            },
-            items: 1,
-            autoHeight: true,
-            autoplay: true,
-            autoplayTimeout: 5000,
-            autoplayHoverPause: true
-        });
-
-        twemoji.parse(document.body, {
-            base: '{{ url('twemoji') }}',
-            size: 'svg',
-            ext: '.svg',
-            callback: function(icon, options, variant) {
-                switch(icon) {
-                    case 'a9':      // © copyright
-                    case 'ae':      // ® registered trademark
-                    case '2122':    // ™ trademark
-                        return false;
-                }
-
-                if(!icon) {
-                    return false;
-                }
-
-                return ''.concat(options.base, '/', options.size, '/', icon, options.ext);
-            }
-        });
-    });
-</script>
-{!! $schema->toScript() !!}
-
+<script async defer src="{{ mix('js/app.js') }}" type="application/javascript"></script>
 </body>
 </html>

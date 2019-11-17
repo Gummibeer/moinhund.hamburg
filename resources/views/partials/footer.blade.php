@@ -2,14 +2,14 @@
     <section class="payment">
         <div class="container clearfix">
             <div class="row">
-                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/eccard.png') }}" class="img-fluid" /></div>
-                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/maestro.png') }}" class="img-fluid" /></div>
-                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/visa.png') }}" class="img-fluid" /></div>
-                <div class="col-3 col-sm text-center"><img src="{{ url('img/payment/mastercard.png') }}" class="img-fluid" /></div>
-                <div class="col-3 col-sm mt-3 mt-sm-0 text-center"><img src="{{ url('img/payment/amex.png') }}" class="img-fluid" /></div>
-                <div class="col-3 col-sm mt-3 mt-sm-0 text-center"><img src="{{ url('img/payment/applepay.png') }}" class="img-fluid" /></div>
-                <div class="col-3 col-sm mt-3 mt-sm-0 text-center"><img src="{{ url('img/payment/androidpay.png') }}" class="img-fluid" /></div>
-                <div class="col-3 col-sm mt-3 mt-sm-0 text-center"><img src="{{ url('img/payment/contactless.png') }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm text-center"><img src="{{ asset(mix('images/payment/eccard.png')) }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm text-center"><img src="{{ asset(mix('images/payment/maestro.png')) }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm text-center"><img src="{{ asset(mix('images/payment/visa.png')) }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm text-center"><img src="{{ asset(mix('images/payment/mastercard.png')) }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm mt-3 mt-sm-0 text-center"><img src="{{ asset(mix('images/payment/amex.png')) }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm mt-3 mt-sm-0 text-center"><img src="{{ asset(mix('images/payment/applepay.png'))}}" class="img-fluid" /></div>
+                <div class="col-3 col-sm mt-3 mt-sm-0 text-center"><img src="{{ asset(mix('images/payment/androidpay.png')) }}" class="img-fluid" /></div>
+                <div class="col-3 col-sm mt-3 mt-sm-0 text-center"><img src="{{ asset(mix('images/payment/contactless.png')) }}" class="img-fluid" /></div>
             </div>
         </div>
     </section>
@@ -41,16 +41,20 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 mt-md-0">
                     <h4>Öffnungszeiten</h4>
                     <ul class="list-unstyled">
-                        @foreach($weekdays as $weekday => $name)
+                        @foreach($openingHours->forWeek() as $weekday => $range)
                             <li>
-                                <strong style="display: inline-block; width: 2rem; color: #C0C0C0;">{{ $name }}</strong>
-                                @if($weekday == $now->dayOfWeek) <strong> @endif
-                                @if($opening_hours[$weekday])
-                                    {{ $opening_hours[$weekday]['start'] }} - {{ $opening_hours[$weekday]['end'] }}
-                                @else
-                                    geschlossen
+                                <strong style="display: inline-block; width: 2rem; color: #C0C0C0;">{{ trans('weekday.'.$weekday) }}</strong>
+                                @if(trans('weekday.'.$weekday) == now()->getTranslatedMinDayName())
+                                    <strong>
                                 @endif
-                                @if($weekday == $now->dayOfWeek) </strong> @endif
+                                @if($range->isEmpty())
+                                    geschlossen
+                                @else
+                                    {{ $range[0]->start() }} - {{ $range[0]->end() }}
+                                @endif
+                                @if(trans('weekday.'.$weekday) == now()->getTranslatedMinDayName())
+                                    </strong>
+                                @endif
                             </li>
                         @endforeach
                     </ul>
@@ -115,7 +119,7 @@
     </section>
     <section class="copyright">
         <div class="container clearfix">
-            <span class="float-left">&copy; {{ $now->year }} <a href="{{ url() }}">Moin Hund</a>; all rights reserved.</span>
+            <span class="float-left">&copy; {{ now()->year }} <a href="{{ url('/') }}">Moin Hund</a>; all rights reserved.</span>
             <span class="float-right">made by <a href="https://gummibeer.de" target="_blank">Gummibeer</a></span>
         </div>
         <div class="container mt-3 text-center">

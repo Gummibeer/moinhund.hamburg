@@ -1,0 +1,193 @@
+@import "~typeface-raleway";
+@import "~typeface-roboto-slab";
+
+@import "~@fortawesome/fontawesome-pro/scss/light";
+@import "~@fortawesome/fontawesome-pro/scss/regular";
+@import "~@fortawesome/fontawesome-pro/scss/solid";
+@import "~@fortawesome/fontawesome-pro/scss/brands";
+@import "~@fortawesome/fontawesome-pro/scss/fontawesome";
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "~owl.carousel";
+
+html,
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a {
+    color: #0887F0;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #033157;
+}
+
+#header .banner {
+    background: #0887F0;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.75rem 0;
+}
+
+#header .banner a {
+    color: #E5E5E5;
+}
+
+#header .banner a:hover,
+#header .banner a:focus,
+#header .banner a:active {
+    color: #ffffff;
+}
+
+#header .banner img.emoji {
+    display: inline-block;
+    font-size: 1.25rem;
+    animation: wiggle 1.5s infinite;
+    vertical-align: middle;
+}
+
+#header .store-info {
+    background: #033157;
+    color: #E5E5E5;
+    padding: 0.75rem 0;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    width: 200px;
+    height: 200px;
+    max-width: 25vw;
+    max-height: 25vw;
+}
+
+.content-section {
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-section .container > *:first-child {
+    margin-top: 0;
+}
+
+.content-section .container > *:last-child {
+    margin-bottom: 0;
+}
+
+#footer .info {
+    background: #253238;
+    color: #E5E5E5;
+    padding: 2rem 0;
+}
+
+#footer .info h4 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #C4A981;
+}
+
+#footer .payment {
+    background: #C0C0C0;
+    padding: 1rem 0;
+}
+
+#footer .payment img {
+    max-width: 56px;
+}
+
+#footer .copyright {
+    background: #212121;
+    color: #E5E5E5;
+    padding: 1rem 0;
+    font-size: 0.75rem;
+}
+
+#footer a:not(.btn) {
+    color: #C4A981;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+}
+
+iframe {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    max-height: calc(100vh / 3 * 2);
+}
+
+.embed-responsive-26by9::before {
+    padding-top: 34.615385%;
+}
+
+.owl-carousel {
+    button.owl-dot {
+        background: #C0C0C0;
+        width: 1.5rem;
+        height: 5px;
+
+        &.active {
+            background: #0887F0;
+        }
+
+        + button.owl-dot {
+            margin-left: 0.25rem;
+        }
+    }
+
+    .owl-nav {
+        display: none;
+    }
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+    40% { transform: rotate(0deg); }
+    45% { transform: rotate(10deg); }
+    55% { transform: rotate(-10deg); }
+    65% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
+    85% { transform: rotate(10deg); }
+    95% { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }
+}
