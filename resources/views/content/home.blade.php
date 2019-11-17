@@ -21,7 +21,7 @@
             <div class="row">
                 @foreach($range['icons'] as $icon)
                     <div class="col-md-3 col-6">
-                        <img src="{{ asset(mix($icon['icon'])) }}" class="img-fluid mb-3 w-75" />
+                        <img src="{{ mix($icon['icon']) }}" class="img-fluid mb-3 w-75" />
                         <h4>
                             <small style="display: block;color: #C0C0C0;">{{ $icon['adjective'] }}</small>
                             {{ $icon['label'] }}
@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col-md-6 @if($imageWithText['direction'] == 'rtl') order-md-last @endif p-0">
                     <div class="embed-responsive embed-responsive-21by9 h-100">
-                        <div class="embed-responsive-item" style="background-image: url({!! mix($imageWithText['image']) !!}); background-size: cover; background-position: {{ $imageWithText['position'] ?? 'center' }};"></div>
+                        <div class="embed-responsive-item" style="background-image: url({!! asset(mix($imageWithText['image'])) !!}); background-size: cover; background-position: {{ $imageWithText['position'] ?? 'center' }};"></div>
                     </div>
                 </div>
                 <div class="col-md-6 content-section">
