@@ -63,27 +63,27 @@
                     <h4>Unser Sortiment</h4>
                     <ul class="list-unstyled m-0">
                         <li>
-                            <i class="fal fa-angle-right mr-2" style="color: #C0C0C0;"></i>
+                            <i class="fas fa-angle-right mr-2" style="color: #C0C0C0;"></i>
                             Alserstars
                         </li>
                         <li>
-                            <i class="fal fa-angle-right mr-2" style="color: #C0C0C0;"></i>
+                            <i class="fas fa-angle-right mr-2" style="color: #C0C0C0;"></i>
                             Halsbänder & Leinen
                         </li>
                         <li>
-                            <i class="fal fa-angle-right mr-2" style="color: #C0C0C0;"></i>
+                            <i class="fas fa-angle-right mr-2" style="color: #C0C0C0;"></i>
                             Futter & Leckerchen
                         </li>
                         <li>
-                            <i class="fal fa-angle-right mr-2" style="color: #C0C0C0;"></i>
+                            <i class="fas fa-angle-right mr-2" style="color: #C0C0C0;"></i>
                             Kauartikel
                         </li>
                         <li>
-                            <i class="fal fa-angle-right mr-2" style="color: #C0C0C0;"></i>
+                            <i class="fas fa-angle-right mr-2" style="color: #C0C0C0;"></i>
                             Spielzeug
                         </li>
                         <li>
-                            <i class="fal fa-angle-right mr-2" style="color: #C0C0C0;"></i>
+                            <i class="fas fa-angle-right mr-2" style="color: #C0C0C0;"></i>
                             Betten
                         </li>
                     </ul>
