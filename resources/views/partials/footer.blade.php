@@ -98,17 +98,17 @@
                     </p>
                     <ul class="list-inline m-0">
                         <li class="list-inline-item">
-                            <a href="https://facebook.com/MoinHund" target="_blank" class="btn btn-light rounded-circle">
+                            <a href="https://facebook.com/MoinHund" target="_blank" class="btn btn-light rounded-circle" rel="noreferrer">
                                 <i class="fab fa-facebook"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://instagram.com/moin_hund" target="_blank" class="btn btn-light rounded-circle">
+                            <a href="https://instagram.com/moin_hund" target="_blank" class="btn btn-light rounded-circle" rel="noreferrer">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://google.com/maps?cid=9367165860801608956" target="_blank" class="btn btn-light rounded-circle">
+                            <a href="https://google.com/maps?cid=9367165860801608956" target="_blank" class="btn btn-light rounded-circle" rel="noreferrer">
                                 <i class="fab fa-google"></i>
                             </a>
                         </li>
@@ -120,7 +120,7 @@
     <section class="copyright">
         <div class="container clearfix">
             <span class="float-left">&copy; {{ now()->year }} <a href="{{ url('/') }}">Moin Hund</a>; all rights reserved.</span>
-            <span class="float-right">made by <a href="https://gummibeer.de" target="_blank">Gummibeer</a></span>
+            <span class="float-right">made by <a href="https://gummibeer.de" target="_blank" rel="noreferrer">Gummibeer</a></span>
         </div>
         <div class="container mt-3 text-center">
             <ul class="list-inline m-0">
