@@ -11,17 +11,6 @@
                     <i class="fas fa-phone"></i>
                     <a href="tel:+494053889478" style="color: #e5e5e5; text-decoration: none;">+49 40 53 88 94 78</a>
                 </li>
-                <li class="list-inline-item d-block d-sm-inline-block">
-                    @if($range = $openingHours->currentOpenRange(now()))
-                        <i class="fas @if($openingHours->isOpenAt(now()->format('Y-m-d'))) fa-door-open @else fa-door-closed @endif"></i>
-                        {{ now()->getTranslatedMinDayName() }}
-                        {{ $range->start() }} - {{ $range->end() }}
-                    @else
-                        <i class="fas fa-door-closed"></i>
-                        {{ now()->getTranslatedMinDayName() }}
-                        geschlossen
-                    @endif
-                </li>
             </ul>
 
             <span class="float-right">
