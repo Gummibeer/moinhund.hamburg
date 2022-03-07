@@ -22,7 +22,7 @@ class AppServiceProvider extends ServiceProvider
             'wednesday'  => ['10:00-18:00'],
             'thursday'   => ['10:00-18:00'],
             'friday'     => ['10:00-18:00'],
-            'saturday'   => ['09:00-13:00'],
+            'saturday'   => ['10:00-14:00'],
             'sunday'     => [],
             'exceptions' => [],
         ]));
