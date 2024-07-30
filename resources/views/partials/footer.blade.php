@@ -46,7 +46,7 @@
 
                                 @forelse($ranges as $range)
                                     <span style="white-space:nowrap;">{{ $range->start() }} - {{ $range->end() }}</span>
-                                @else
+                                @empty
                                     geschlossen
                                 @endforelse
 
