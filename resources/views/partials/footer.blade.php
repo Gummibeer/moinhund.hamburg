@@ -20,17 +20,13 @@
                     <h4>Kontakt</h4>
                     <ul class="list-unstyled">
                         <li><strong>Moin Hund</strong></li>
-                        <li>Ratsmühlendamm 26</li>
-                        <li>22335 Hamburg</li>
+                        <li>Dorfstraße 202</li>
+                        <li>25920 Risum-Lindholm</li>
                     </ul>
                     <ul class="list-unstyled m-0">
                         <li>
                             <i class="fas fa-phone mr-2" style="color: #C0C0C0;"></i>
-                            <a href="tel:+494053889478" style="color: #e5e5e5; text-decoration: none;">+49 40 53 88 94 78</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-fax mr-2" style="color: #C0C0C0;"></i>
-                            +49 40 53 88 94 77
+                            <a href="tel:+491752669782" style="color: #e5e5e5; text-decoration: none;">+49 175 2669782</a>
                         </li>
                         <li>
                             <i class="fas fa-envelope mr-2" style="color: #C0C0C0;"></i>

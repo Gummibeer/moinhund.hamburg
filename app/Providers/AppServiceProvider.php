@@ -17,12 +17,12 @@ class AppServiceProvider extends ServiceProvider
         });
 
         View::share('openingHours', OpeningHours::create([
-            'monday'     => ['10:00-18:00'],
-            'tuesday'    => ['10:00-18:00'],
-            'wednesday'  => ['10:00-18:00'],
-            'thursday'   => ['10:00-18:00'],
-            'friday'     => ['10:00-18:00'],
-            'saturday'   => ['10:00-14:00'],
+            'monday'     => [],
+            'tuesday'    => ['09:00–12:00', '14:00–18:00'],
+            'wednesday'  => ['09:00–12:00', '14:00–18:00'],
+            'thursday'   => ['09:00–12:00', '14:00–18:00'],
+            'friday'     => [],
+            'saturday'   => [],
             'sunday'     => [],
             'exceptions' => [],
         ]));

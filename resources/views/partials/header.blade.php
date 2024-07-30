@@ -5,11 +5,11 @@
                 <li class="list-inline-item d-block d-sm-inline-block">
                     <i class="fas fa-home"></i>
                     <strong>Moin Hund</strong>
-                    Ratsmühlendamm 26, 22335 Hamburg
+                    Dorfstraße 202, 25920 Risum-Lindholm
                 </li>
                 <li class="list-inline-item d-block d-sm-inline-block">
                     <i class="fas fa-phone"></i>
-                    <a href="tel:+494053889478" style="color: #e5e5e5; text-decoration: none;">+49 40 53 88 94 78</a>
+                    <a href="tel:+491752669782" style="color: #e5e5e5; text-decoration: none;">+49 175 2669782</a>
                 </li>
             </ul>
 
