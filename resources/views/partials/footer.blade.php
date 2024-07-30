@@ -37,17 +37,19 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 mt-md-0">
                     <h4>Öffnungszeiten</h4>
                     <ul class="list-unstyled">
-                        @foreach($openingHours->forWeek() as $weekday => $range)
+                        @foreach($openingHours->forWeek() as $weekday => $ranges)
                             <li>
-                                <strong style="display: inline-block; width: 2rem; color: #C0C0C0;">{{ trans('weekday.'.$weekday) }}</strong>
+                                <strong style="display:inline-block;width:2rem;color:#C0C0C0;">{{ trans('weekday.'.$weekday) }}</strong>
                                 @if(trans('weekday.'.$weekday) == now()->getTranslatedMinDayName())
                                     <strong>
                                 @endif
-                                @if($range->isEmpty())
-                                    geschlossen
+
+                                @forelse($ranges as $range)
+                                    <span style="white-space:nowrap;">{{ $range->start() }} - {{ $range->end() }}</span>
                                 @else
-                                    {{ $range[0]->start() }} - {{ $range[0]->end() }}
-                                @endif
+                                    geschlossen
+                                @endforelse
+
                                 @if(trans('weekday.'.$weekday) == now()->getTranslatedMinDayName())
                                     </strong>
                                 @endif
